@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="API">
+  <test name="APIPracticeTest">
+   
+    <classes>
+      <class name="APITestSuite.APIPractice" />
+       <!-- class2:disabled--> 
+      <class name="DataDrivenTesting.APITest"  />
+      <class name="REQUESTandRESPONSEMETHODS.CreateResource" />
+      <class name="REQUESTandRESPONSEMETHODS.GetMehod2" />
+      <class name="REQUESTandRESPONSEMETHODS.GetResponse" />
+    </classes>
+  </test>
+</suite>
